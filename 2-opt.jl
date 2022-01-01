@@ -34,7 +34,6 @@ function improve(p, way)
     end
 
     return way, cost
-
 end
 
 function calculate_cost(p, way)
@@ -48,7 +47,7 @@ function calculate_cost(p, way)
             city_B = way[i+1]
         end
         cost = cost + p[city_A,city_B]
-
     end
+    
     return cost
 end 
