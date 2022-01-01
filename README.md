@@ -10,4 +10,4 @@ For this problem, we use the following methods:
 
 3 - Farthest Insertion
 
-to optimize the heuristic solutions, we use the 2-opt optimizer.
+to improve the heuristic solutions, we use the 2-opt optimizer.
