@@ -36,6 +36,7 @@ function improve(p, way)
     return way, cost
 end
 
+
 function calculate_cost(p, way)
     cost = 0
     N = length(way)
