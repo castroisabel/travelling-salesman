@@ -28,7 +28,6 @@ function farthest_insertion(way, N, p)
     else 
         return selected_neighbor, ref, best_cost
     end
-
 end
 
 
@@ -53,8 +52,8 @@ function include_new_neighbor(way, p, candidate)
         end
 
         new_way = vcat(way[1:insertion_position-1],candidate,way[insertion_position:length(way)])
-                
     end
+    
     return new_way
 end
 
@@ -70,8 +69,8 @@ function calculate_cost(N, p, way)
             city_B = way[i+1]
         end
         cost = cost + p[city_A,city_B]
-
     end
+    
     return cost
 end 
 
