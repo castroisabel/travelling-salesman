@@ -32,6 +32,7 @@ function nearest_neighbor(N, p)
         way[i+1] =  selected_neighbor
         is_selected[selected_neighbor] = true     
     end
+    
     return way
 end
 
@@ -48,6 +49,7 @@ function calculate_cost(N, p, way)
         cost = cost + p[city_A,city_B]
 
     end
+    
     return cost
 end 
 
@@ -81,5 +83,3 @@ for j=1:num_instances
     println(results_nn, j,"   ", c,"   ",cost, " (2-opt)")
     close(results_nn)
 end
-
-    
