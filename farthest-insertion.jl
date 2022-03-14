@@ -20,7 +20,6 @@ function farthest_insertion(way, N, p)
                 ref = i
             end  
         end  
-
     end
 
     if ref == Nothing()
