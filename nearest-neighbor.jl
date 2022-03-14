@@ -47,7 +47,6 @@ function calculate_cost(N, p, way)
             city_B = way[i+1]
         end
         cost = cost + p[city_A,city_B]
-
     end
     
     return cost
